@@ -1,0 +1,53 @@
+
+  .movie-title{
+    color: rgb(0, 0, 0);
+  }
+
+  .movieElement {
+      height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    box-shadow: 7px 6px 15px rgba(0, 0, 0, 0.924);
+    border-radius: 10px;
+    display: flex;
+    
+  }
+  
+  .movieElement h2,
+  .movieElement p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .movieElement h2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+  }
+  
+  .movieElement p {
+ 
+    color: white;
+    display: inline;
+    background: #f67722;
+    padding: 0.20rem 1rem 0.30rem;
+    border-radius: 15px;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.842);
+  }
+  
+  .movieElementImage {
+    flex: 1;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+  }
+  
+  .movieElementImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .movieElementInfo {
+    flex: 2;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
